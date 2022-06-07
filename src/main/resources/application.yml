@@ -1,0 +1,21 @@
+cloud:
+  aws:
+  
+    credentials:
+      access-key: AKIAUTJTFCAQYL2GADEP
+      secret-key: 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
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+
+application:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  bucket:
+    name: zoho-xscc
+spring:
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB  
+    
